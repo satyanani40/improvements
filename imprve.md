@@ -22,7 +22,7 @@ db.txt.runCommand("text", {search: "father"} )
         "language" : "english",
         "results" : [
                 {
-                        "score" : 0.75,
+                        "score" : 0.75, 
                         "obj" : {
                                 "_id" : ObjectId("50e820689068856d0ac6a801"),
                                 "txt" : "I am your father, Luke"
