@@ -3,20 +3,20 @@ for improve query performance you must add indexs to mongodb collection\n
 about mongodb stopwords and stemming
 ===================================	
 
-Mongodb can automatically performs stemming and stopwords\n
-the following url can give full description \n
-==> https://blog.codecentric.de/en/2013/01/text-search-mongodb-stemming/ \n
+Mongodb can automatically performs stemming and stopwords
+the following url can give full description 
+==> https://blog.codecentric.de/en/2013/01/text-search-mongodb-stemming/ 
 
-mongodb can automatically give scoring for each searching text using text opertor the example is shown bellow.	\n
+mongodb can automatically give scoring for each searching text using text opertor the example is shown bellow.	
 
-Here we are inserting new document.	\n
-	db.txt.insert( {txt: "I am your father, Luke"} )\n
+Here we are inserting new document.	
+	db.txt.insert( {txt: "I am your father, Luke"} )
 
-after inserted searching will be performed.	\n	
-	db.txt.runCommand( "text", { search : "father" } )	\n
+after inserted searching will be performed.	
+	db.txt.runCommand( "text", { search : "father" } )	
 
-the following output will be display.	\n
-db.txt.runCommand("text", {search: "father"} ) 	\n
+the following output will be display.	
+db.txt.runCommand("text", {search: "father"} ) 
 {
         "queryDebugString" : "father||||||",
         "language" : "english",
