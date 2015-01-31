@@ -78,3 +78,16 @@ this is second example. here we are inserting three documents for calculating sc
 		    "ok" : 1
 	}
 
+geolocation findout python libraries may be useful in futhure
+==============================================================
+
+Geolocation
+
+Libraries for geocoding addresses and working with latitudes and longitudes.
+
+GeoDjango - A world-class geographic web framework.
+geopy - Python Geocoding Toolbox.
+pygeoip - Pure Python GeoIP API.
+GeoIP - Python API for MaxMind GeoIP Legacy Database.
+geojson - Python bindings and utlities for GeoJSON.
+django-countries - A Django app that provides country choices for use with forms, flag icons static files, and a country field for models.
