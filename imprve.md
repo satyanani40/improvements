@@ -91,3 +91,38 @@ pygeoip - Pure Python GeoIP API.
 GeoIP - Python API for MaxMind GeoIP Legacy Database.
 geojson - Python bindings and utlities for GeoJSON.
 django-countries - A Django app that provides country choices for use with forms, flag icons static files, and a country field for models.
+
+
+
+Search
+========================================================================
+Libraries and software for indexing and performing search queries on data.
+
+django-haystack - Modular search for Django.
+elasticsearch-py - The official low-level Python client for Elasticsearch.
+solrpy - A Python client for solr.
+Whoosh - A fast, pure Python search engine library.
+
+
+email libraries
+=========================================================Email
+
+Libraries for sending and parsing email.
+
+inbox.py - Python SMTP Server for Humans.
+imbox - Python IMAP for Humans.
+inbox - The open source email toolkit.
+lamson - Pythonic SMTP Application Server.
+flanker - A email address and Mime parsing library.
+marrow.mailer - High-performance extensible mail delivery framework.
+django-celery-ses - Django email backend with AWS SES and Celery.
+modoboa - A mail hosting and management platform including a modern and simplified Web UI.
+envelopes - Mailing for human beings.
+mailjet - Mailjet API implementation for batch mailing, statistics and more.
+Talon - Mailgun library to extract message quotations and signatures.
+pyzmail - Compose, send and parse emails.
+
+
+==================================
+for other tool information follow bellow link
+https://github.com/vinta/awesome-python#restful-api
