@@ -126,3 +126,20 @@ pyzmail - Compose, send and parse emails.
 ==================================
 for other tool information follow bellow link
 https://github.com/vinta/awesome-python#restful-api
+
+
+about match button 
+==================================
+If you asked some question in home page like post.
+EX: I am going to movie will you come?
+	then some peoples give their feed back in commment.
+	But We are providing Match Button By single click interested person is ready to come with you.
+	
+about Done , do tasks
+==================================
+If I am going to movie 		:Task Not completed
+If some body went to movie	:Completed Task.
+
+Based on completed , yet to complete actions we can find best matches.
+
+
